@@ -21,8 +21,8 @@
 
 #### **📥 官方数据下载地址 (2018 Edition)**
 请从以下官方入口获取必要数据文件：
-* **交互数据 (5-core)**: [reviews_Grocery_and_Gourmet_Food_5.json.gz](https://datarepo.science.unsw.edu.au/Dataset/Amazon_Review_Data_2018/Grocery_and_Gourmet_Food/reviews_Grocery_and_Gourmet_Food_5.json.gz)
-* **元数据 (Metadata)**: [meta_Grocery_and_Gourmet_Food.json.gz](https://datarepo.science.unsw.edu.au/Dataset/Amazon_Review_Data_2018/Grocery_and_Gourmet_Food/meta_Grocery_and_Gourmet_Food.json.gz)
+* **交互数据 (5-core)**: [reviews_Grocery_and_Gourmet_Food_5.json.gz](http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Grocery_and_Gourmet_Food_5.json.gz)
+* **元数据 (Metadata)**: [meta_Grocery_and_Gourmet_Food.json.gz](http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/meta_Grocery_and_Gourmet_Food.json.gz)
 
 > **放置路径**：下载后请**不要解压**，直接放入：`data/Grocery_and_Gourmet_Food/`
 
@@ -30,7 +30,7 @@
 实验需在 Python 3.9 环境中运行，核心依赖包括：
 * Python 3.9
 * PyTorch 2.5.1 + cu118
-* OpenAI 2.14.0 (用于调用 DeepSeek-V3)
+* OpenAI 2.14.0 (用于调用 DeepSeek-V3.2)
 * Pandas 2.3.3
 * NumPy 1.23.5
 
