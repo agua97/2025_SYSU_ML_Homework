@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+
+# 训练日志与结果 (ReChorus 运行产生)
+log/
+baserunner.pkl
+
+# 排除大型原始数据集 (只保留子集)
+# 假设原始大文件都在某个特定目录下，可以这样排除：
+data/MovieLens_1M/
+data/Grocery_and_Gourmet_Food/
+
+# 但保留 csv 文件
+!data/Grocery_and_Gourmet_Food/*.csv
+
+# 模型权重文件
+*.pth
+*.pt
+
+# 编辑器配置
+.idea/
+.vscode/
+.DS_Store
