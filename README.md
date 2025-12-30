@@ -42,7 +42,7 @@ conda activate rechorus
 pip install -r requirements.txt
 ```
 
-## 🚀 完整执行流水线
+## 🚀 完整执行流水线(如果只是想测试代码是否跑通，此处可跳过)
 
 ### 第一阶段：Amazon Grocery 全链路仿真
 此阶段将完成从“数据下载”到“生成增强训练集”的全过程：
